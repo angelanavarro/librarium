@@ -1,0 +1,21 @@
+Libro:
+id
+titulo
+autor -> id
+idioma
+año
+usado
+insert into libro(titulo, autor, year, idioma, estado) values('Titulo Uno', 'Autor Uno', 2013, 'Español', 'nuevo');
+
+
+Autor:
+id
+Nombre
+Apellido
+
+
+
+Inventario:
+libro_id
+cantidad
+

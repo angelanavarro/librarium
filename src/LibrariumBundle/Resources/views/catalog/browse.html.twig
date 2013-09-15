@@ -1,0 +1,11 @@
+{% extends 'LibrariumBundle::layout.html.twig' %}
+
+{% block title 'Librarium Libros - Catálogo' %}
+
+{% block content %}
+
+{% if books %}
+    {{ books.name }}
+{% endif %}
+  
+{% endblock %}

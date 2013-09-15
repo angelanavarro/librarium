@@ -1,0 +1,55 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  color: #666;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+	height: 230px;
+	margin: 0;
+	background: url("../img/logo_sm.png") no-repeat scroll 0 top whitesmoke;		
+}
+
+.header_sec {
+	height: 160px;
+	margin: 0;
+	background: url(../img/header_light.jpg) 0 center;
+	padding: 10px;
+}
+.content {
+	max-width: 720px;
+	margin: auto;
+}
+
+.intro {
+	padding-top: 3em;
+	font-size: 25px;
+  	font-weight: 300;
+  	text-align: center;
+}
+
+.footer {
+	border-top: solid 1px #d1d1d1;
+	font-size: 13px;
+	margin-top: 30px;
+	padding:10px	
+}
+
+#findme {
+	margin: auto;
+	width: 340px;
+	float: left;
+	
+}
+
+#findme a:link ,a:visited {
+	text-decoration: none;
+}
+
+#findme img {
+	width: 30px;
+	height: 30px;
+	padding: 0 5px 0 5px;
+}
