@@ -3,58 +3,11 @@
 {% block title 'Librarium Libros' %}
 
 {% block content %} 
-      <p>	
-      Recuperamos, para un nuevo lector, libros que por alguna circunstancia han dejado de circular, no se reimprimieron, se agotaron o se refundieron tanto que se volvieron difíciles encontrar.	  	      		    
-      </p>	
-      <div id="gallery">
-        {% image 
-          'bundles/librarium/img/galeria_1.jpg' 
-          'bundles/librarium/img/galeria_3.jpg'
-          'bundles/librarium/img/galeria_4.jpg'
-          'bundles/librarium/img/galeria_5.jpg'
-          'bundles/librarium/img/galeria_6.jpg' %}
-          <img src="{{ asset_url }}">
-        {% endimage %}        
-        <span class="slidesjs-previous slidesjs-navigation"><i class="icon-angle-left"> < </i></span>
-        <span class="slidesjs-next slidesjs-navigation"><i class="icon-angle-right"> > </i></span>
-      </div>
-       <p>
-       <h3>Contactenos</h3>
-       Calle 35 22-32 Of. 201 <br/>
-       Bucaramanga, Santander. <br/>
-       Tel: 300.561.2591  </br>
-       Email: <a href="mailto:libros@librarium.com.co">libros@librarium.com.co</a>
-       </p>
-
-
-        <br/>
-        <h3>Un mensaje de <strong>Librarium</strong></h3>
-        <p>
+        <h3>Un mensaje de Librarium</h3>
+        <p class="body_text">
         La idea es recuperar, para un nuevo lector, libros que por alguna circunstancia han dejado de circular, no se reimprimieron, se agotaron o se refundieron tanto que se volvieron difíciles encontrar. 
         Los libros dentro de ese mundillo editorial, a donde también ha llegado el mal de las modas, se han vuelto efímeros, destinados a la oscuridad de la bodega en pocos meses.
         Nuestra cultura, la literaria, la filosófica, la histórica, es decir, la humanística, es de lento andar, por eso se merece no una segunda sino una infinita  oportunidad y si algo nos brinda esa oportunidad es el libro leído. <br/>
         El analfabetismo militante se nutre de los que no leen para no dejarse influenciar, “para ser más auténticos”, alimenta a los que no quieren hablar más que consigo mismos. Diga no al analfabetismo militante… Lea… Y si no consigue qué leer, nosotros le ayudamos a encontrarlo.
-        </p>
-
-      	<div id="findme">   
-        	<a target="_blank" href="https://www.facebook.com/librarium.bucaramanga?fref=ts" title="Facebook">      
-          	<img src="img/FB-f-Logo_50.png" border="0" alt="CV"/>
-        	</a>          
-      	</div>
-      	<br clear="all"/> 
-    <script type="text/javascript">
-      $(function(){
-        $("#gallery").slidesjs({
-          width: 340,
-          height: 228,      
-          navigation: {
-            active: false
-          },
-          pagination: {
-            active: false
-          }
-         
-        });
-      });
-    </script>
+        </p>      
 {% endblock %}  

@@ -14,17 +14,21 @@
     <title>{% block title %}{% endblock %}</title>
   </head>
   <body>
-    <div class="header">
-      <div class="content intro">
-      </div>      
-    </div>
-    <div class="content">
-  	   {% block content %} {% endblock %}     
-      <div class="footer">
-        <span>Librarium Libros &nbsp;&nbsp&nbsp;&nbsp Calle 35 22-32 Of. 201 &nbsp;&nbsp Bucaramanga, Santander.
-        &nbsp;&nbsp; Tel: 300.561.2591 &nbsp;&nbsp;&nbsp;&nbsp <a href="mailto:libros@librarium.com.co">libros@librarium.com.co</a>
-        </span>
+    <div id="main">
+      <div id="header" class="content">        
       </div>
-    </div>  
+      <div class="content">
+        <div id="menu" class="">
+          <a href=""><span class="menu_item menu_item_active">Inicio</span></a>
+          <a href="contacto"><span class="menu_item">Contactenos</span></a>
+        </div>         
+    	   {% block content %} {% endblock %}             
+      </div>
+    </div>
+    <div class="footer content">
+          <span>Librarium Libros &nbsp;&nbsp&nbsp;&nbsp Calle 35 22-32 Of. 201 &nbsp;&nbsp Bucaramanga, Santander.
+          &nbsp;&nbsp; Tel: 300.561.2591 &nbsp;&nbsp;&nbsp;&nbsp <a href="mailto:libros@librarium.com.co">libros@librarium.com.co</a>
+          </span>
+    </div>
   </body>
 </html>
